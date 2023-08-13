@@ -1,0 +1,30 @@
+{
+  "flex": {
+    "prefix": "flex",
+    "body": [
+      "@include flex(${1|flex-start,flex-end,center,space-between,space-around|}, ${2|flex-start,flex-end,center,space-between,space-around|}, ${3|row,column,row-reverse,column-reverse|}, ${4|wrap,nowrap|});"
+    ],
+    "description": "flex"
+  },
+  "mixin font": {
+    "prefix": "font",
+    "body": [
+      "@include font(${1:color}, ${2:size}, ${3:line-height}, ${4|'bold','semibold'|});"
+    ],
+    "description": "mixin font"
+  },
+  "mixin font style": {
+    "prefix": "fs",
+    "body": [
+      "@include font-style(${2:size}, ${3:line-height}, ${4|'bold','semibold'|});"
+    ],
+    "description": "mixin font"
+  },
+  "ellipsis": {
+    "prefix": "ellipsis",
+    "body": [
+      "@include ellipsis-mult(${1:lines});"
+    ],
+    "description": "ellipsis"
+  }
+}
