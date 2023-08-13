@@ -1,6 +1,6 @@
 {
-  "name": "bee",
-  "displayName": "bee",
+  "name": "bee-extension",
+  "displayName": "bee-extension",
   "description": "Industrious little bee",
   "repository": {
     "type": "github",
@@ -13,6 +13,7 @@
   "categories": [
     "Other"
   ],
+  "publisher": "kormondor",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
