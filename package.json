@@ -6,7 +6,7 @@
     "type": "github",
     "url": "https://github.com/SawyerSven/bee-vscode-extension"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.81.0"
   },
