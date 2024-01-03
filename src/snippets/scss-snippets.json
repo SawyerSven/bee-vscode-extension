@@ -26,5 +26,12 @@
       "@include ellipsis-mult(${1:lines});"
     ],
     "description": "ellipsis"
+  },
+  "brothers-gap": {
+    "prefix": "bg",
+    "body": [
+      "@include brothers-gap('$1', $2);"
+    ],
+    "description": "brothers-gap"
   }
 }
